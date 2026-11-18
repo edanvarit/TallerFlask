@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Resultado Ejercicio 1{% endblock %}
+{% block content %}
+<div class="tarjeta">
+    <h2>Resultado</h2>
+    <p>Promedio de notas: <strong>{{ promedio }}</strong></p>
+    <p>Asistencia: <strong>{{ asistencia }}%</strong></p>
+    <p>Estado: <strong class="{{ 'ok' if estado == 'Aprobado' else 'mal' }}">{{ estado }}</strong></p>
+    <a class="volver" href="{{ url_for('ejercicio1') }}">Volver al formulario</a>
+    <a class="volver" href="{{ url_for('index') }}">Menú principal</a>
+</div>
+{% endblock %}

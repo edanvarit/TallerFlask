@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Datos inválidos{% endblock %}
+{% block content %}
+<div class="tarjeta">
+    <h2>Datos inválidos</h2>
+    <p>Revisa los valores ingresados e inténtalo nuevamente.</p>
+    <a class="volver" href="{{ url_for('index') }}">Volver al menú</a>
+</div>
+{% endblock %}

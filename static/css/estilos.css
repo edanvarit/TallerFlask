@@ -1,0 +1,116 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.contenedor 
+{
+    max-width: 400px;
+    margin: auto;
+}
+
+.menu 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.boton-menu 
+{
+    display: block;
+    width: 180px;
+    padding: 18px 0;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+    border-radius: 10px;
+}
+
+.tarjeta 
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta h2 
+{
+    margin-top: 10px;
+}
+
+.grupo 
+{
+    margin-bottom: 15px;
+}
+
+label 
+{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] 
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] 
+{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.centrado 
+{
+    text-align: center;
+}
+
+.centrado label 
+{
+    font-weight: normal;
+    font-family: "Times New Roman", serif;
+}
+
+.centrado input[type="submit"] 
+{
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.resultado {
+    margin-top: 15px;
+}
+
+
+
+
+.tarjeta {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; }
+.volver { display: inline-block; margin: 15px 15px 0 0; color: #007bff; }
+.ok { color: #1a7f37; }
+.mal { color: #c62828; }
